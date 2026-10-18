@@ -1,11 +1,11 @@
 ---
 title: "Comunicación efectiva con despacho y clientes"
 description: "Cómo informar demoras, confirmar instrucciones, reportar incidentes y tratar a pasajeros y clientes con mensajes claros, cortos y seguros."
-category: "Comunicación"
+categoria: "Comunicación"
 level: "Básico"
-duration: "2 horas"
+duracion: "2 horas"
 author: "Comunidad SoberaníaTech"
-updated: 2026-10-18
+actualizado: 2026-10-18
 ---
 
 > **Importante:** este curso es una introducción. **No reemplaza** las capacitaciones obligatorias de tu empresa ni los protocolos de comunicación y emergencia de tu cliente. Si tu empresa o la operadora tienen un procedimiento de reporte, **ese es el que se usa**.

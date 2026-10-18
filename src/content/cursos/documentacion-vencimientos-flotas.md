@@ -1,11 +1,11 @@
 ---
 title: "Documentación y vencimientos para flotas de transporte de personal"
 description: "Qué papeles necesitan el chofer y la unidad, cómo llevar un control de vencimientos con semáforo y cómo evitar retenciones y sanciones."
-category: "Logística"
+categoria: "Logística"
 level: "Básico"
-duration: "2 horas"
+duracion: "2 horas"
 author: "Comunidad SoberaníaTech"
-updated: 2026-10-18
+actualizado: 2026-10-18
 ---
 
 > **Importante:** este curso es una introducción y no es asesoramiento legal. **No reemplaza** las capacitaciones obligatorias de tu empresa ni la normativa vigente. Los requisitos exactos dependen del tipo de servicio, la jurisdicción (municipal, provincial o nacional) y lo que exija cada cliente: **confirmalos siempre** con tu empresa, la autoridad de transporte que corresponda y tu cliente.

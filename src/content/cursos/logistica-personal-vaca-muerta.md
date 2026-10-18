@@ -1,11 +1,11 @@
 ---
 title: "Introducción a la logística de personal en Vaca Muerta"
 description: "Cómo se organiza el traslado de personal a yacimientos: turnos, rutas, puntos de ascenso, manifiestos, gestión de viajes e indicadores básicos."
-category: "Logística"
+categoria: "Logística"
 level: "Básico"
-duration: "2 horas"
+duracion: "2 horas"
 author: "Comunidad SoberaníaTech"
-updated: 2026-10-18
+actualizado: 2026-10-18
 ---
 
 > **Importante:** este curso es una introducción. **No reemplaza** las capacitaciones obligatorias de tu empresa ni los procedimientos de las operadoras y contratistas. Cada cliente tiene sus propias reglas de ingreso, horarios y protocolos: siempre cumplí lo que te indiquen.

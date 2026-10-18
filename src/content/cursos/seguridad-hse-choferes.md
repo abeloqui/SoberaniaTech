@@ -1,11 +1,11 @@
 ---
 title: "Seguridad HSE para choferes"
 description: "Seguridad, salud y ambiente para quienes conducen transporte de personal en la zona de operación petrolera: antes de salir, en ruta y ante una emergencia."
-category: "Seguridad"
+categoria: "Seguridad"
 level: "Básico"
-duration: "2 horas"
+duracion: "2 horas"
 author: "Comunidad SoberaníaTech"
-updated: 2026-10-18
+actualizado: 2026-10-18
 ---
 
 > **Importante:** este curso es una introducción. **No reemplaza** las capacitaciones obligatorias de tu empresa (manejo defensivo, inducción de la operadora, primeros auxilios, etc.), ni la normativa vigente, ni los protocolos de tu cliente. Si algo de acá contradice lo que te piden en tu empresa, **mandan la norma y el protocolo de la empresa**.

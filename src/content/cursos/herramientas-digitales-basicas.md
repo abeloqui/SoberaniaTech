@@ -1,11 +1,11 @@
 ---
 title: "Herramientas digitales básicas para el trabajo"
 description: "WhatsApp Business, planillas, almacenamiento en la nube (Drive y alternativas libres) y GPS con mapas sin conexión, para choferes, despachadores y personal de transporte."
-category: "Herramientas digitales"
+categoria: "Herramientas digitales"
 level: "Básico"
-duration: "3 horas"
+duracion: "3 horas"
 author: "Comunidad SoberaníaTech"
-updated: 2026-10-18
+actualizado: 2026-10-18
 ---
 
 > **Importante:** este curso es una introducción. **No reemplaza** las capacitaciones obligatorias de tu empresa ni sus políticas de uso de celulares, datos y sistemas. Antes de usar una herramienta para trabajo (sobre todo con datos de pasajeros), consultá qué está permitido en tu empresa y con tu cliente.
