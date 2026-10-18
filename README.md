@@ -12,7 +12,7 @@ Vaca Muerta. Hecho con [Astro](https://astro.build) y [Tailwind CSS](https://tai
 ## Instalación
 
 ```bash
-git clone https://github.com/TU-USUARIO/soberania-tech.git
+git clone https://github.com/abeloqui/soberaniatech.git
 cd soberania-tech
 npm install
 npm run dev        # servidor local en http://localhost:4321
