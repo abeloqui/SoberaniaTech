@@ -1,0 +1,104 @@
+{
+  "$ref": "#/definitions/cursos",
+  "definitions": {
+    "cursos": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "categoria": {
+          "type": "string"
+        },
+        "nivel": {
+          "type": "string",
+          "enum": [
+            "Básico",
+            "Intermedio",
+            "Avanzado"
+          ],
+          "default": "Básico"
+        },
+        "duracion": {
+          "type": "string"
+        },
+        "destacado": {
+          "type": "boolean",
+          "default": false
+        },
+        "orden": {
+          "type": "number",
+          "default": 99
+        },
+        "actualizado": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
+        "autor": {
+          "type": "string",
+          "default": "Comunidad SoberaníaTech"
+        },
+        "recursos": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "titulo": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "tipo": {
+                "type": "string",
+                "enum": [
+                  "Documento",
+                  "Video",
+                  "Herramienta",
+                  "Normativa",
+                  "Web"
+                ],
+                "default": "Web"
+              }
+            },
+            "required": [
+              "titulo",
+              "url"
+            ],
+            "additionalProperties": false
+          },
+          "default": []
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "description",
+        "categoria",
+        "duracion",
+        "actualizado"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

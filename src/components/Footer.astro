@@ -1,0 +1,17 @@
+---
+import { REPO_URL, SITE_NAME } from '../config';
+const year = new Date().getFullYear();
+---
+
+<footer class="border-t border-slate-200 bg-slate-50 mt-16">
+  <div class="mx-auto max-w-5xl px-4 py-8 text-sm text-slate-600 space-y-2">
+    <p>
+      <strong>{SITE_NAME}</strong> · Hecho en Neuquén, Patagonia argentina.
+    </p>
+    <p>
+      Código bajo licencia GPL-3.0-or-later · Contenidos bajo licencia CC BY-SA 4.0 ·
+      <a href={REPO_URL} class="text-teal-700 underline">Código fuente</a>
+    </p>
+    <p>© {year} Comunidad {SITE_NAME}</p>
+  </div>
+</footer>

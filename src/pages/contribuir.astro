@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { REPO_URL, CONTACT_EMAIL } from '../config';
+---
+
+<Layout title="Contribuir" description="Cómo sumarte a SoberaníaTech.">
+  <section class="mx-auto max-w-3xl px-4 py-12">
+    <h1 class="text-3xl font-extrabold text-slate-900">Contribuir</h1>
+    <p class="mt-3 text-lg text-slate-600">
+      SoberaníaTech crece con el aporte de la comunidad. Hay muchas formas de ayudar, y no todas
+      requieren programar.
+    </p>
+
+    <div class="prose prose-slate mt-8 max-w-none prose-a:text-teal-700">
+      <h2>Formas de ayudar</h2>
+      <ul>
+        <li><strong>Escribir un curso nuevo:</strong> es un archivo Markdown.</li>
+        <li><strong>Corregir o actualizar</strong> contenidos, enlaces o errores.</li>
+        <li><strong>Revisar</strong> el contenido técnico si sos del rubro (HSE, logística, etc.).</li>
+        <li><strong>Mejorar el código</strong> o la accesibilidad del sitio.</li>
+        <li><strong>Difundir</strong> el portal entre choferes, empresas y escuelas técnicas.</li>
+      </ul>
+
+      <h2>Cómo agregar un curso</h2>
+      <ol>
+        <li>
+          Entrá al <a href={REPO_URL}>repositorio</a> y abrí la carpeta
+          <code>src/content/cursos/</code>.
+        </li>
+        <li>
+          Creá un archivo nuevo, por ejemplo <code>mi-curso.md</code>.
+        </li>
+        <li>Copiá el encabezado (frontmatter) de un curso existente y completalo.</li>
+        <li>Escribí el contenido en Markdown debajo del encabezado.</li>
+        <li>Enviá tu aporte como <em>Pull Request</em> o <em>Issue</em>.</li>
+      </ol>
+
+      <h2>Criterios de calidad</h2>
+      <ul>
+        <li>Lenguaje claro, simple y en español rioplatense.</li>
+        <li>Contenido corto y práctico, con ejemplos.</li>
+        <li>Solo recursos gratuitos y, si es posible, de código abierto.</li>
+        <li>Citar las fuentes y respetar las licencias. No copiar material con derechos reservados.</li>
+        <li>Sin información confidencial de empresas.</li>
+      </ul>
+
+      <h2>Licencia de tus aportes</h2>
+      <p>
+        Al contribuir aceptás que tus textos se publiquen bajo <strong>CC BY-SA 4.0</strong> y tu
+        código bajo <strong>GPL-3.0-or-later</strong>.
+      </p>
+
+      <h2>Contacto</h2>
+      <p>
+        ¿Dudas o ideas? Escribinos a <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+        o abrí un <em>Issue</em> en el <a href={REPO_URL}>repositorio</a>.
+      </p>
+    </div>
+  </section>
+</Layout>
