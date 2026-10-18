@@ -157,4 +157,4 @@ Nombres, DNI, teléfonos y direcciones de pasajeros son **datos personales** (Le
 
 **Videos:** buscá en YouTube "comunicación efectiva en el trabajo", "atención de reclamos" y "cómo dar malas noticias a un cliente". Elegí videos breves, en español y con ejemplos de situaciones reales.
 
-¿Encontraste un error o querés mejorar este curso? Contribuí en el repositorio del proyecto.
+¿Encontraste un error o querés mejorar este curso? Contribuí en el repositorio del proyecto..
